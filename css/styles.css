@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    /*font: 14px/1.5 "Hind";*/
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #056cb5;
+}
+
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.top-bar {
+    background: black;
+    display: inline-block;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    padding-bottom: 6px;
+    padding-top: 10px;
+}
+.black-space{width: 200px;
+    float: left;}
+.black-bar {
+    float: inherit;
+    text-align: center;
+    color: #ffffff;
+    font: 20px/2.1 "MyriadProSemiBold";
+    word-spacing: unset;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    padding-top: 3px;
+}
+
+.x-button {
+    float: left;
+    padding-right: 30px;
+    height: 31px;
+    width: 31px;
+}

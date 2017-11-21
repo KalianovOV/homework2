@@ -13,3 +13,28 @@
     font-family: "ChunkFive";
     src: url('chunkfive.otf') format('truetype');
 }
+
+@font-face {
+    font-family: "marilandpro";
+    src: url('marilandpro_regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
