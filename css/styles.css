@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     min-height: 100%;
     position: relative;
     /*font: 14px/1.5 "Hind";*/
+    font: 14px/1.5 "OpenSans";
 }
 
 a {
@@ -18,6 +20,7 @@ a {
 a:hover {
     color: #056cb5;
 }
+
 
 .clearfix:after,
 .clearfix:before {
@@ -32,28 +35,75 @@ a:hover {
 .top-bar {
     background: black;
     display: inline-block;
-    position: fixed;
-    height: 50px;
+    /*position: fixed;*/
+    height: 48px;
     width: 100%;
-    padding-bottom: 6px;
-    padding-top: 10px;
+    padding-bottom: 0;
+    padding-top: 20px;
+    padding-left: 100px;
 }
-.black-space{width: 200px;
+.black-space{
+    width: 30%;
     float: left;}
-.black-bar {
-    float: inherit;
+
+.text-on-black-bar {
+    float: left;
     text-align: center;
+    font: 20px/2.2 "OpenSans";
     color: #ffffff;
-    font: 20px/2.1 "MyriadProSemiBold";
+    /*font-size: 20px;/ Приближение из-за подстановки шрифтов /*/
+    font-weight: 700;
+    line-height: 26px;/ Приближение из-за подстановки шрифтов /
+    text-align: center;
     word-spacing: unset;
     letter-spacing: 5px;
-    word-spacing: 5px;
+    /*word-spacing: 5px;*/
+    padding-left: 100px;
     padding-top: 3px;
+    width: 80%;
 }
 
 .x-button {
-    float: left;
+    float: right;
     padding-right: 30px;
     height: 31px;
     width: 31px;
+
+}
+
+.logo-nav{
+    background: crimson;
+    position: fixed;
+    z-index: 999;
+    height:60px;
+}
+.logo-img {
+    float:left;
+    }
+.logo-flag{
+    float: left;
+}
+.logo-nav {
+    float:left;
+    width: 100%;
+}
+
+.logo-nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 14px 16px;
+}
+
+
+.logo-cart{
+    float: right;
+}
+.slider1{
+    height: 899px;
+    width: 100%;
+    background:  url("../img/bg_.jpg") no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
