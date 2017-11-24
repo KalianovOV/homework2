@@ -223,13 +223,93 @@ a:hover {
     background: #f6f6f6;
 }
 
+.slider2 {
+    background: url("../img/slider2_bg_bottom.jpg") no-repeat top left;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 150px;
+    /*136 141 0 5*/
+}
 
+.sign {
+    padding-bottom: 20px
+}
+
+.title2 {
+    color: #ffffff;
+    font: 36px/1.5 "MyriadProSemiBold";
+    font-weight: 700;
+
+    letter-spacing: 5px;
+    padding-bottom: 5px
+
+}
+
+.img-line1 {
+    display: inline-block;
+    padding-left: 18px;
+}
+
+.img-line1 div {
+    float: left;
+    padding-right: 25px;
+
+}
+
+.img-line2 {
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 18px;
+}
+
+.img-line2 div {
+    float: left;
+    padding-right: 25px;
+
+}
+
+/*sqares with pictures*/
+.slider3 {
+    padding-top: 125px;
+    width:100%;
+    height:900px;
+}
+.sq1{
+    background: url("../img/sq3.jpg")  no-repeat right bottom;
+    background:  no-repeat top center;
+    float: right;
+    width: 608px;
+    height: 637px;
+}
+
+.sq2 {
+    background: url("../img/sq2.jpg") no-repeat top center;
+    float: right;
+    width: 608px;
+    height: 637px;
+}
+
+.sq3 {
+    background: url("../img/sq1.jpg") no-repeat top center;
+    float: right;
+    width: 608px;
+    height: 637px;
+}
+
+.buynow {
+    background: #056ab2;
+    color: white;
+    width: 100%;
+
+}
+
+/*block used by ....*/
 .used-by {
-     background: #ffffff;
-     height: 621px;
-     padding-top: 155px;
-     padding-bottom: 0;
- }
+    background: #ffffff;
+    height: 621px;
+    padding-top: 155px;
+    padding-bottom: 0;
+}
 
 .featured {
     background: #ffffff;
@@ -237,7 +317,8 @@ a:hover {
     padding-top: 155px;
     padding-bottom: 0;
 }
-.title1{
+
+.title1 {
     text-align: left;
     padding-top: 50px;
     padding-left: 100px;
@@ -264,30 +345,36 @@ a:hover {
 .banner1 {
     padding: 20px 30px 3px 90px;
 }
+
 .banner2 {
     padding-right: 43px;
     padding-top: 0;
     padding-bottom: 46px;
 }
+
 .banner3 {
     padding-right: 18px;
     padding-top: 0;
     padding-bottom: 24px;
 }
+
 .banner4 {
     padding-right: 17px;
     padding-top: 0;
     padding-bottom: 16px;
 }
+
 .banner5 {
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 28px;
 }
+
 .points {
     text-align: center;
     margin-left: 5px;
 }
+
 .point {
     height: 20px;
     width: 20px;
