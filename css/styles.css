@@ -459,7 +459,7 @@ font-weight: bold;
 /*jumping girl*/
 
 .block4-girl {
-    background: url("../img/slider-girl.jpg") no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url("../img/slider-girl.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
