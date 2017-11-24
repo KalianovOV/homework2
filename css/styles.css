@@ -271,30 +271,33 @@ a:hover {
 }
 
 .sq1 {
-    background: url("../img/sq3.jpg") no-repeat right bottom;
+    background: url("../img/sq3.jpg") no-repeat top left;
     float: right;
     width: 608px;
     height: 637px;
+    text-align: center;
+    vertical-align: text-bottom;
 }
 
 .sq2 {
-    background: url("../img/sq2.jpg") no-repeat top center;
+    background: url("../img/sq2.jpg") no-repeat top left;
     float: right;
     width: 608px;
     height: 637px;
 }
 
 .sq3 {
-    background: url("../img/sq1.jpg") no-repeat top center;
+    background: url("../img/sq1.jpg") no-repeat top left;
     float: right;
     width: 608px;
     height: 637px;
 }
 
-.buynow {
+.buy-now {
     background: #056ab2;
     color: white;
     width: 100%;
+    text-align: center;
 
 }
 
