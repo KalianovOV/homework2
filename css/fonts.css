@@ -45,3 +45,18 @@
     font-style: normal;
     font-weight: normal;
 }
+
+@font-face {
+    font-family: "OpenSansExtraBold";
+url("../fonts/OpenSans/OpenSans-Extrabold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "OpenSansBold";
+url("../fonts/OpenSans/OpenSans-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}

@@ -35,7 +35,7 @@ a:hover {
     background: black;
     /*display: inline-block;*/
     /*position: fixed;*/
-    height: 48px;
+    height: 44px;
     width: 100%;
     padding-bottom: 0;
     padding-top: 20px;
@@ -50,7 +50,7 @@ a:hover {
 .text-on-black-bar {
     float: left;
     text-align: center;
-    font: 20px/2.2 "OpenSans";
+    font: 20px "OpenSansBold";
     color: #ffffff;
     /*font-size: 20px;/ Приближение из-за подстановки шрифтов /*/
     font-weight: 700;
@@ -72,63 +72,107 @@ a:hover {
 
 }
 
-.menu {
+.menu-transp {
     background: white; /*linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)),*/
     opacity: 0.35;
     position: absolute;
-    z-index: 999;
-    height: auto;
+    z-index: 900;
+    height: 74px;
     width: 100%;
     padding-right: 20px;
     padding-left: 100px;
+    padding-top: 11px;
+    vertical-align: middle;
+}
+.menu {
+    /*background: darkgray; !*linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)),*!*/
+    /*opacity: 0.35;*/
+    position: absolute;
+    z-index: 999;
+    height: 74px;
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-top: 11px;
+    vertical-align: middle;
 }
 
 .logo-img {
     float: left;
-    border-right: 1px;
-    border-color: black;
-    height: 52px;
-    width: 355px
+
+    border-right: solid 2px black;
+    padding-left: 7px;
+    padding-top: 1px;
+    height: 54px;
+    width: 355px;
+    padding-right: 20px;
 }
 
 .logo-flag {
     float: left;
     height: 33px;
     width: 180px;
-    opacity: 100;
-
+    padding-left: 18px;
+    padding-top: 15px;
 }
 
 .logo-nav {
     float: left;
-    text-align: left;
-
+    padding-left: 100px;
+    padding-top: 19px;
+}
+.logo-nav ul {
+    padding: 0 0 0 140px;
 }
 
 .logo-nav ul li {
     list-style: none;
     display: inline;
-    padding: 0 14px 16px;
+    padding: 0 17px 16px;
+    color: #ffffff;
+    font: 25px "MyriadProRegular";
 }
 
 .logo-cart {
     float: right;
     height: 33px;
     width: 33px;
-    margin-right: 100px;
+    margin-right: 200px;
+    padding-right: 157px;
+    padding-top: 17px;
 }
 
 .slider1 {
     height: 899px;
     width: 100%;
-
     background: url("../img/bg_.jpg") no-repeat top left;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    }
+
+.slider1-text {
+    padding-top: 220px;
+    padding-left: 13px;
+}
+
+.slider1 h2 {
+    color: white;
     text-align: center;
+    vertical-align: middle;
+    font: 152px "Brushstrike";
+    padding-top: 100px;
+}
+
+.slider1 h3 {
+    color: white;
+    font: 60px "BebasNeue_Regular";
+
+    letter-spacing: 6px;
+    padding-top: 0;
+    padding-left: 500px;
+    padding-bottom: 10px;
 }
 
 .slider1_top {
@@ -142,27 +186,33 @@ a:hover {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-align: center;
 }
 
 .tech-features {
     width: 100%;
-
+font-weight: bold;
     background: #ffffff;
-    height: 132px;
-    padding-top: 75px;
-    padding-left: 68px;
+    height: 140px;
+    padding-top: 68px;
+    padding-left: 70px;
 }
 
 .img-tech-features {
     float: left;
-    padding-right: 100px;
+    padding-right: 65px;
     padding-top: 15px;
 }
 
 .ico1 {
     float: left;
-    padding-right: 15px;
+    padding-right: 10px;
+    height: 64px;
+    width: 64px;
+
+}
+.ico1-2 {
+    float: left;
+    padding-right: 8px;
     height: 64px;
     width: 64px;
 
@@ -171,16 +221,25 @@ a:hover {
 .ico1-txt1 {
     float: left;
     width: 135px;
-    font-size: 25px;
-    padding-right: 60px;
-    padding-top: 20px;
+    font-size: 21px;
+    padding-right: 44px;
+    padding-top: 15px;
 }
 
 .ico1-txt2 {
     float: left;
+    width: 135px;
+    font-size: 21px;
+    padding-right: 61px;
+    padding-top: 0;
+    padding-left: 5px;
+}
+
+.ico1-txt3 {
+    float: left;
     font-size: 25px;
-    padding-right: 60px;
-    padding-top: 20px;
+    padding-right: 18px;
+    padding-top: 0;
     width: 200px;
 }
 
@@ -197,33 +256,63 @@ a:hover {
 
     background: #000000;
     color: white;
-    height: 132px;
+    height: 149px;
     padding-left: 100px;
-    padding-top: 60px;
+    padding-top: 51px;
     padding-bottom: 15px;
 }
 
-.ico2 {
+.ico2-1 {
     float: left;
     padding-left: 100px;
     padding-right: 20px;
+    padding-top: 22px;
+}
 
+.ico2-2 {
+    float: left;
+    padding-left: 115px;
+    padding-right: 20px;
+}
+
+.ico2-3 {
+    float: left;
+    padding-left: 72px;
+    padding-right: 20px;
 }
 
 .ico2-txt2 {
     float: left;
-    font-size: 50px;
+    letter-spacing: 3px;
     padding-left: 15px;
     padding-right: 78px;
-    padding-top: 10px;
+    padding-top: 25px;
+    font: 50px "OpenSansExtraBold";
 }
 
 .video-box {
     background: #f6f6f6;
 }
 
+.part2-container {
+    width:40%;
+    /*float: left;*/
+}
+.videoplayer {
+    width: 60%;
+    /*float: right;*/
+}
+.title1 {
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 100%;
+}
+
+
+
 .slider2 {
-    background: url("../img/slider2_bg_bottom.jpg") no-repeat top left;
+    background: url("../img/slider2_bg_bottom.jpg") no-repeat center center ;
     text-align: center;
     padding-top: 110px;
     padding-bottom: 150px;
@@ -262,35 +351,97 @@ a:hover {
     padding-right: 25px;
 }
 
-
 /*sqares with pictures*/
 .slider3 {
     padding-top: 125px;
     width: 100%;
-    height: 900px;
+    height: 778px;
+    padding-left:   15px;
 }
 
 .sq1 {
-    background: url("../img/sq3.jpg") no-repeat top left;
-    float: right;
-    width: 608px;
-    height: 637px;
+    float: left;
     text-align: center;
     vertical-align: text-bottom;
+    margin-right: 40px;
 }
 
+.sq1-top {
+    height: 76px;
+    vertical-align: top;
+    background: #e2e2e1 url("../img/sq1-top.jpg") no-repeat top right;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.sq1-back {
+    background: #e2e2e1 url("../img/sq1.jpg") no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 604px;
+    height: 491px;
+}
+
+.sq-title {
+    color: white;
+    font: 58px "ChunkFive";
+}
+
+
 .sq2 {
-    background: url("../img/sq2.jpg") no-repeat top left;
-    float: right;
-    width: 608px;
-    height: 637px;
+    float: left;
+    text-align: center;
+    vertical-align: text-bottom;
+    margin-right: 40px;
+}
+
+.sq2-top {
+    height: 76px;
+    vertical-align: top;
+    background: #e2e2e1 url("../img/sq2-top.jpg") no-repeat top right;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.sq2-back {
+    background: #e2e2e1 url("../img/sq2.jpg") no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 604px;
+    height: 491px;
 }
 
 .sq3 {
-    background: url("../img/sq1.jpg") no-repeat top left;
-    float: right;
-    width: 608px;
-    height: 637px;
+    float: left;
+    text-align: center;
+    vertical-align: text-bottom;
+
+}
+
+.sq3-top {
+    height: 76px;
+    vertical-align: top;
+    background: #e2e2e1 url("../img/sq3-top.jpg") no-repeat top right;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.sq3-back {
+    background: #e2e2e1 url("../img/sq3.jpg") no-repeat top left;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 604px;
+    height: 491px;
+
 }
 
 .buy-now {
@@ -298,7 +449,23 @@ a:hover {
     color: white;
     width: 100%;
     text-align: center;
+    font: 28px "Myriad Pro";
+    height: 44px;
+    padding-top: 13px;
+}
 
+
+
+/*jumping girl*/
+
+.block4-girl {
+    background: url("../img/slider-girl.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 900px
 }
 
 /*block used by ....*/
@@ -316,12 +483,7 @@ a:hover {
     padding-bottom: 0;
 }
 
-.title1 {
-    text-align: left;
-    padding-top: 50px;
-    padding-left: 100px;
-    width: 100%;
-}
+
 
 .title {
     padding-bottom: 58px;
@@ -384,4 +546,19 @@ a:hover {
     background: #096cb6;
     height: 390px;
     font-size: 30px;
+    padding-left: 274px;
+}
+.copyright{
+    display: inline-block;
+    width:100%;
+    font: 13pt "OpenSans";
+    padding-right: 100px;
+}
+.copyright ul li{
+    list-style: none;
+    display: inline;
+    padding: 0 17px 16px;
+    color: #ffffff;
+    float: right;
+
 }
