@@ -312,7 +312,7 @@ font-weight: bold;
 
 
 .slider2 {
-    background: url("../img/slider2_bg_bottom.jpg") no-repeat center center ;
+    background: linear-gradient(rgba(5, 106, 178, 0.50), rgba(5, 106, 178, 0.50)), url("../img/slider2_bg_bottom.jpg") no-repeat center center ;
     text-align: center;
     padding-top: 110px;
     padding-bottom: 150px;
