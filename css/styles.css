@@ -216,7 +216,6 @@ a:hover {
     padding-left: 15px;
     padding-right: 78px;
     padding-top: 10px;
-
 }
 
 .video-box {
@@ -228,20 +227,16 @@ a:hover {
     text-align: center;
     padding-top: 110px;
     padding-bottom: 150px;
-    /*136 141 0 5*/
 }
 
 .sign {
-
     padding-bottom: 20px
 }
 
 .title2 {
-
     color: #ffffff;
     font: 36px/1.5 "MyriadProSemiBold";
     font-weight: 700;
-
     letter-spacing: 5px;
     padding-bottom: 5px;
 }
@@ -266,6 +261,7 @@ a:hover {
     float: left;
     padding-right: 25px;
 }
+
 
 /*sqares with pictures*/
 .slider3 {
