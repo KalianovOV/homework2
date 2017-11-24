@@ -232,17 +232,18 @@ a:hover {
 }
 
 .sign {
+
     padding-bottom: 20px
 }
 
 .title2 {
+
     color: #ffffff;
     font: 36px/1.5 "MyriadProSemiBold";
     font-weight: 700;
 
     letter-spacing: 5px;
-    padding-bottom: 5px
-
+    padding-bottom: 5px;
 }
 
 .img-line1 {
@@ -253,7 +254,6 @@ a:hover {
 .img-line1 div {
     float: left;
     padding-right: 25px;
-
 }
 
 .img-line2 {
@@ -265,18 +265,17 @@ a:hover {
 .img-line2 div {
     float: left;
     padding-right: 25px;
-
 }
 
 /*sqares with pictures*/
 .slider3 {
     padding-top: 125px;
-    width:100%;
-    height:900px;
+    width: 100%;
+    height: 900px;
 }
-.sq1{
-    background: url("../img/sq3.jpg")  no-repeat right bottom;
-    background:  no-repeat top center;
+
+.sq1 {
+    background: url("../img/sq3.jpg") no-repeat right bottom;
     float: right;
     width: 608px;
     height: 637px;
