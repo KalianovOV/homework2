@@ -21,7 +21,6 @@ a:hover {
     color: #056cb5;
 }
 
-
 .clearfix:after,
 .clearfix:before {
     display: table;
@@ -34,7 +33,7 @@ a:hover {
 
 .top-bar {
     background: black;
-    display: inline-block;
+    /*display: inline-block;*/
     /*position: fixed;*/
     height: 48px;
     width: 100%;
@@ -42,9 +41,11 @@ a:hover {
     padding-top: 20px;
     padding-left: 100px;
 }
-.black-space{
+
+.black-space {
     width: 30%;
-    float: left;}
+    float: left;
+}
 
 .text-on-black-bar {
     float: left;
@@ -53,8 +54,8 @@ a:hover {
     color: #ffffff;
     /*font-size: 20px;/ Приближение из-за подстановки шрифтов /*/
     font-weight: 700;
-    line-height: 26px;/ Приближение из-за подстановки шрифтов /
-    text-align: center;
+    line-height: 26px;
+/ Приближение из-за подстановки шрифтов / text-align: center;
     word-spacing: unset;
     letter-spacing: 5px;
     /*word-spacing: 5px;*/
@@ -71,39 +72,232 @@ a:hover {
 
 }
 
-.logo-nav{
-    background: crimson;
-    position: fixed;
+.menu {
+    background: white; /*linear-gradient(rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0.70)),*/
+    opacity: 0.35;
+    position: absolute;
     z-index: 999;
-    height:60px;
-}
-.logo-img {
-    float:left;
-    }
-.logo-flag{
-    float: left;
-}
-.logo-nav {
-    float:left;
+    height: auto;
     width: 100%;
+    padding-right: 20px;
+    padding-left: 100px;
 }
 
-.logo-nav li {
+.logo-img {
+    float: left;
+    border-right: 1px;
+    border-color: black;
+    height: 52px;
+    width: 355px
+}
+
+.logo-flag {
+    float: left;
+    height: 33px;
+    width: 180px;
+    opacity: 100;
+
+}
+
+.logo-nav {
+    float: left;
+    text-align: left;
+
+}
+
+.logo-nav ul li {
     list-style: none;
     display: inline;
     padding: 0 14px 16px;
 }
 
-
-.logo-cart{
+.logo-cart {
     float: right;
+    height: 33px;
+    width: 33px;
+    margin-right: 100px;
 }
-.slider1{
+
+.slider1 {
     height: 899px;
     width: 100%;
-    background:  url("../img/bg_.jpg") no-repeat top left;
+
+    background: url("../img/bg_.jpg") no-repeat top left;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    text-align: center;
+}
+
+.slider1_top {
+    position: absolute;
+    z-index: 998;
+    height: 899px;
+    width: 100%;
+    background: url("../img/bg_top_l52.png") no-repeat center center;
+    opacity: 0.13;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.tech-features {
+    width: 100%;
+
+    background: #ffffff;
+    height: 132px;
+    padding-top: 75px;
+    padding-left: 68px;
+}
+
+.img-tech-features {
+    float: left;
+    padding-right: 100px;
+    padding-top: 15px;
+}
+
+.ico1 {
+    float: left;
+    padding-right: 15px;
+    height: 64px;
+    width: 64px;
+
+}
+
+.ico1-txt1 {
+    float: left;
+    width: 135px;
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+.ico1-txt2 {
+    float: left;
+    font-size: 25px;
+    padding-right: 60px;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.perform-saft-hygi {
+    width: 100%;
+
+    background: #000000;
+    color: white;
+    height: 132px;
+    padding-left: 100px;
+    padding-top: 60px;
+    padding-bottom: 15px;
+}
+
+.ico2 {
+    float: left;
+    padding-left: 100px;
+    padding-right: 20px;
+
+}
+
+.ico2-txt2 {
+    float: left;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-right: 78px;
+    padding-top: 10px;
+
+}
+
+.video-box {
+    background: #f6f6f6;
+}
+
+
+.used-by {
+     background: #ffffff;
+     height: 621px;
+     padding-top: 155px;
+     padding-bottom: 0;
+ }
+
+.featured {
+    background: #ffffff;
+    height: 621px;
+    padding-top: 155px;
+    padding-bottom: 0;
+}
+.title1{
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 100%;
+}
+
+.title {
+    padding-bottom: 58px;
+    text-align: center;
+}
+
+.banners-container {
+    padding-left: 100px;
+
+    padding-bottom: 120px;
+}
+
+.line-banners {
+    padding-top: 20px;
+    padding-left: 100px;
+    margin-left: 100px;
+}
+
+.banner1 {
+    padding: 20px 30px 3px 90px;
+}
+.banner2 {
+    padding-right: 43px;
+    padding-top: 0;
+    padding-bottom: 46px;
+}
+.banner3 {
+    padding-right: 18px;
+    padding-top: 0;
+    padding-bottom: 24px;
+}
+.banner4 {
+    padding-right: 17px;
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+.banner5 {
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 28px;
+}
+.points {
+    text-align: center;
+    margin-left: 5px;
+}
+.point {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+
+}
+
+.foot-cont {
+    color: #ffffff;
+    background: #096cb6;
+    height: 390px;
+    font-size: 30px;
 }
