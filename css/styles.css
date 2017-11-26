@@ -351,6 +351,7 @@ a:hover {
     width: 28%;
     float: left;
 }
+
 .info h2 {
     font: 19px "OpenSansBold", sans-serif;
     padding-bottom: 40px;
@@ -359,15 +360,18 @@ a:hover {
     letter-spacing: 3px;
     font-weight: 800;
 }
-.info-info{
+
+.info-info {
     font: 18px "OpenSans", sans-serif;
     padding-bottom: 34px;
 }
+
 .info-info p {
     padding-bottom: 8px;
     letter-spacing: -1px;
 }
-.price{
+
+.price {
     color: #056cb6;
     border-left: solid 5px #e1e1e1;
     font: 34px "OpenSans", sans-serif;
@@ -376,10 +380,12 @@ a:hover {
     padding-left: 20px;
     letter-spacing: 1px;
 }
-.shop-now{
+
+.shop-now {
     padding-top: 40px;
 }
-.button{
+
+.button {
 
     background: transparent;
     font-size: 28px;
@@ -394,7 +400,8 @@ a:hover {
     float: left;
     height: 540px;
 }
-.video-footer{
+
+.video-footer {
     padding-left: 95px;
     padding-bottom: 0;
     padding-top: 10px;
@@ -419,7 +426,6 @@ a:hover {
     letter-spacing: 5px;
     padding-bottom: 5px;
 }
-
 
 .img-line1 {
     display: inline-block;
