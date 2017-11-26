@@ -1,19 +1,23 @@
+/*works*/
 @font-face {
     font-family: "Brushstrike";
     src: url('../fonts/brushstrike.ttf') format('truetype');
 
 }
 
+/*works*/
 @font-face {
     font-family: "BebasNeue_Regular";
     src: url('../fonts/bebasneue_regular.otf') format('truetype');
 }
 
+/*works*/
 @font-face {
     font-family: "ChunkFive";
     src: url('../fonts/chunkfive.otf') format('truetype');
 }
 
+/*works*/
 @font-face {
     font-family: "marilandpro";
     src: url('../fonts/marilandpro_regular.otf') format('truetype');
@@ -22,9 +26,11 @@
 @font-face {
     font-family: "MyriadProRegular";
     src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
-    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
-    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.otf") format("truetype");
+
     font-style: normal;
     font-weight: normal;
 }
@@ -39,24 +45,25 @@
     font-weight: normal;
 }
 
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
 @font-face {
     font-family: "OpenSans";
     url("../fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+    url("//fonts.googleapis.com/css?family=Open+Sans") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSansExtraBold";
-url("../fonts/OpenSans/OpenSans-Extrabold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: bold;
+url("../fonts/opensans-extrabold/OpenSans-ExtraBold.ttf") format("truetype");
 }
 
 
 @font-face {
     font-family: "OpenSansBold";
-url("../fonts/OpenSans/OpenSans-bold.ttf") format("truetype");
+url("../fonts/OpenSans/opensans-bold.ttf") format("truetype");
     font-style: normal;
     font-weight: bold;
 }
