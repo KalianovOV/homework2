@@ -48,20 +48,19 @@ a:hover {
 }
 
 .text-on-black-bar {
+
     float: left;
     text-align: center;
-    font: 20px "OpenSansBold" , sans serife;
+    font: 18px "OpenSansBold", sans-serif;
     color: #ffffff;
-    /*font-size: 20px;/ Приближение из-за подстановки шрифтов /*/
     font-weight: 600;
     line-height: 26px;
-/ Приближение из-за подстановки шрифтов / text-align: center;
-    word-spacing: unset;
     letter-spacing: 5px;
-    /*word-spacing: 5px;*/
+    word-spacing: 0;
     padding-left: 100px;
-    padding-top: 3px;
+    padding-top: 2px;
     width: 80%;
+
 }
 
 .x-button {
@@ -144,10 +143,24 @@ a:hover {
     padding-top: 17px;
 }
 
+.slider1_top {
+    position: absolute;
+    z-index: 998;
+    height: 899px;
+    width: 100%;
+    /*background: url("../img/bg_top_l52.png") no-repeat center ;*/
+    opacity: 0.7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    background-size: cover;
+}
+
 .slider1 {
     height: 899px;
     width: 100%;
-    background: url("../img/bg_.jpg") no-repeat top left;
+    background: url("../img/bg_v2.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -177,24 +190,7 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.slider1_top {
-    position: absolute;
-    z-index: 998;
-    height: 899px;
-    width: 100%;
-    background: url("../img/bg_top_l52.png") no-repeat center center;
-    opacity: 0.13;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .tech-features {
-
-
-
-
 
     width: 100%;
     font-weight: bold;
@@ -207,14 +203,14 @@ a:hover {
 .img-tech-features {
     float: left;
     padding-right: 64px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
-.header-tech-features{
+.header-tech-features {
     text-align: center;
     /*width: 855px; !*623*!*/
     font: 47px "OpenSansBold", sans-serif;
-    letter-spacing: 0px;
+    letter-spacing: 0;
     font-weight: 800;
     background: -webkit-linear-gradient(right, #0e1555, #056cb6);
     background: -o-linear-gradient(right, #0e1555, #056cb6);
@@ -306,7 +302,7 @@ a:hover {
 .ico2-txt2 {
     float: left;
     letter-spacing: 4px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 60px;
     padding-top: 30px;
     font: 45px "OpenSansExtraBold", sans-serif;
@@ -316,29 +312,99 @@ a:hover {
 
 .video-box {
     background: #f6f6f6;
-}
-
-.part2-container {
-    width: 40%;
-    /*float: left;*/
-}
-
-.videoplayer {
-    width: 60%;
-    /*float: right;*/
+    width: 100%;
+    height: 806px;
 }
 
 .title1 {
     text-align: left;
-    padding-top: 50px;
+    padding-top: 45px;
     padding-left: 100px;
     width: 100%;
 }
 
+.header-game-changer {
+    text-align: left;
+    padding-left: 95px;
+    width: 30%;
+    /*width: 855px; !*623*!*/
+    font: 60px "OpenSansBold", sans-serif;
+    letter-spacing: 0;
+    font-weight: 800;
+    background: -webkit-linear-gradient(right, #0e1555, #056cb6);
+    background: -o-linear-gradient(right, #0e1555, #056cb6);
+    background: -moz-linear-gradient(right, #0e1555, #056cb6);
+    background: linear-gradient(to right, #0e1555, #056cb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.part2-container {
+    display: inline-block;
+    width: 100%;
+    height: 540px;
+    padding-left: 100px;
+}
+
+.info {
+    padding-left: 100px;
+    width: 28%;
+    float: left;
+}
+.info h2 {
+    font: 19px "OpenSansBold", sans-serif;
+    padding-bottom: 40px;
+    padding-top: 7px;
+    padding-left: 0;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+.info-info{
+    font: 18px "OpenSans", sans-serif;
+    padding-bottom: 34px;
+}
+.info-info p {
+    padding-bottom: 8px;
+    letter-spacing: -1px;
+}
+.price{
+    color: #056cb6;
+    border-left: solid 5px #e1e1e1;
+    font: 34px "OpenSans", sans-serif;
+    padding-bottom: 15px;
+    padding-top: 14px;
+    padding-left: 20px;
+    letter-spacing: 1px;
+}
+.shop-now{
+    padding-top: 40px;
+}
+.button{
+
+    background: transparent;
+    font-size: 28px;
+    padding: 37px 89px;
+    color: black;
+    border: 1px solid #056cb6;
+    border-radius: 58px;
+}
+
+.video-player {
+    width: 60%;
+    float: left;
+    height: 540px;
+}
+.video-footer{
+    padding-left: 95px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    margin-left: 135px;
+}
+
 .slider2 {
-    background: linear-gradient(rgba(5, 106, 178, 0.60), rgba(5, 106, 178, 0.60)), url("../img/slider2_bg_bottom.jpg") no-repeat center center;
+    background: linear-gradient(rgba(5, 106, 178, 0.70), rgba(5, 106, 178, 0.70)), url("../img/slider2_bg_bottom.jpg") no-repeat center center;
     text-align: center;
-    padding-top: 110px;
+    padding-top: 105px;
     padding-bottom: 150px;
 }
 
@@ -354,25 +420,29 @@ a:hover {
     padding-bottom: 5px;
 }
 
+
 .img-line1 {
     display: inline-block;
-    padding-left: 18px;
+
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-top: 3px;
 }
 
 .img-line1 div {
     float: left;
-    padding-right: 25px;
+    padding-right: 16px;
 }
 
 .img-line2 {
     display: inline-block;
-    padding-top: 10px;
-    padding-left: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
 
 .img-line2 div {
     float: left;
-    padding-right: 25px;
+    padding-right: 16px;
 }
 
 /*sqares with pictures*/
@@ -400,7 +470,7 @@ a:hover {
 }
 
 .sq1-back {
-    background: #e2e2e1 url("../img/sq1.jpg") no-repeat top left;
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.90)), url("../img/sq1.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -412,13 +482,15 @@ a:hover {
 .sq-title {
     color: white;
     font: 58px "ChunkFive";
+    padding-top: 415px;
+
 }
 
 .sq2 {
     float: left;
     text-align: center;
     vertical-align: text-bottom;
-    margin-right: 40px;
+    margin-right: 36px;
 }
 
 .sq2-top {
@@ -431,7 +503,8 @@ a:hover {
 }
 
 .sq2-back {
-    background: #e2e2e1 url("../img/sq2.jpg") no-repeat top left;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.90)), url("../img/sq2.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -457,7 +530,7 @@ a:hover {
 }
 
 .sq3-back {
-    background: #e2e2e1 url("../img/sq3.jpg") no-repeat top left;
+    background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.90)), url("../img/sq3.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -474,7 +547,10 @@ a:hover {
     text-align: center;
     font: 28px "Myriad Pro";
     height: 44px;
-    padding-top: 13px;
+    padding-top: 14px;
+    padding-left: 0;
+    word-spacing: -12px;
+    letter-spacing: 6px;
 }
 
 /*jumping girl*/
@@ -493,7 +569,7 @@ a:hover {
 .used-by {
     background: #ffffff;
     height: 638px;
-    padding-top: 155px;
+    padding-top: 130px;
     padding-bottom: 0;
 }
 
@@ -503,8 +579,8 @@ a:hover {
     /*padding-top: 130px;*/
     /*padding-bottom: 0;*/
     background: #ffffff;
-    height: 638px;
-    padding-top: 155px;
+    height: 588px;
+    padding-top: 84px;
     padding-bottom: 0;
 }
 
@@ -515,12 +591,25 @@ a:hover {
     justify-content: center;
 }
 
+.title4 {
+    padding-bottom: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banners-container4 {
+    padding-left: 100px;
+    padding-bottom: 63px;
+}
+
 .gradient1 {
     text-align: center;
-    width: 855px; /*623*/
-
+    width: 875px; /*623*/
+    letter-spacing: 2px;
+    word-spacing: -8px;
     font: 58px "OpenSansBold", sans-serif;
-    letter-spacing: 0px;
+
     font-weight: 800;
     background: -webkit-linear-gradient(right, #0e1555, #056cb6);
     background: -o-linear-gradient(right, #0e1555, #056cb6);
