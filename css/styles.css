@@ -382,11 +382,11 @@ a:hover {
     letter-spacing: 1px;
 }
 
-.shop-now {
+.form1-shop-now {
     padding-top: 40px;
 }
 
-.button {
+.button1 {
 
     background: transparent;
     font-size: 28px;
@@ -569,7 +569,57 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: 900px
+    height: 900px;
+    color: white;
+}
+
+.block4-girl-text {
+    padding-left: 250px;
+    padding-top: 250px;
+}
+
+.block4-girl-text h2 {
+    color: white;
+    font: 61px "OpenSansExtraBold", sans-serif;
+    letter-spacing: 3px;
+    padding-top: 41px;
+    padding-left: 155px;
+    font-weight: 600;
+
+}
+
+.block4-girl-text h3 {
+    padding: 13px 341px 25px 439px;
+    /*padding-left: 439px;*/
+    /*padding-top: 13px;*/
+    /*padding-right: 341px;*/
+    /*padding-bottom: 25px;*/
+    color: white;
+    font: 20px "OpenSansBold", sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.form2 {
+    margin-left: 415px;
+    padding-left: 200px;
+    padding-top: 24px;
+    height: 80px;
+    width: 80px;
+}
+
+.button2 {
+    height: 155px;
+    width: 155px;
+    background: transparent;
+    padding: 50px 64px;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 120px;
+}
+
+.button2 img {
+    padding-right: 44px;
 }
 
 /*block used by ....*/
@@ -677,26 +727,105 @@ a:hover {
     padding-right: 10px;
 }
 
-.foot-cont {
+.footer-all {
+    display: block;
+    width: 100%;
     color: #ffffff;
     background: #096cb6;
     height: 390px;
-    font-size: 30px;
-    padding-left: 274px;
+    padding-left: 300px;
+    padding-top: 97px;
+    padding-right: 150px;
+    margin-right: 100px;
+}
+
+.foot-cont {
+    width: 100%;
+    color: #ffffff;
+    background: #096cb6;
+    padding-bottom: 0;
+    padding-left: 90px;
+
+}
+
+.stay-in-loop {
+    float: left;
+    width: 18%;
+    padding-right: 10px;
+}
+
+.stay-in-loop h2 {
+    width: 100%;
+    font: 18px "OpenSansBold", sans-serif;
+    padding-right: 40px;
+    letter-spacing: 5px;
+    padding-bottom: 5px;
+
+}
+
+.stay-in-loop h3 {
+    width: 100%;
+    font: 15px "OpenSans", sans-serif;
+    padding-right: 40px;
+    padding-bottom: 28px;
+}
+
+.mini-menu {
+    float: left;
+    width: 10%;
+    font: 10pt "OpenSans", sans-serif;
+    padding-right: 4px;
+    padding-left: 18px;
+}
+
+.mini-menu ul li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.contact-info {
+    float: left;
+    display: block;
+    width: 30%;
+    padding-bottom: 14px;
+}
+.contact-info-begin {
+    float: left;
+    padding-bottom: 40px;
+}
+.contact-info-list {
+    float:left;
+    display: flex;
+    width: 100%;
+}
+
+.contact-info h2 {
+     font: 11pt "OpenSansBold", sans-serif;
+     padding-bottom: 10px;
+ }
+
+.contact-info h3 {
+    font: 10pt "OpenSans", sans-serif;
+    padding-right: 11px;
 }
 
 .copyright {
-    display: inline-block;
-    width: 100%;
-    font: 13pt "OpenSans";
-    padding-right: 100px;
+    float: left;
+    height: 74px;
+    display: flex;
+    justify-content:space-between;
+    width: 1147px;
+    font: 10pt "OpenSans", sans-serif;
+    padding-top: 30px;
+    padding-left: 90px;
+    border-top: solid 1px #3182c1;
 }
 
 .copyright ul li {
     list-style: none;
     display: inline;
-    padding: 0 17px 16px;
+    padding: 0 10px 16px;
     color: #ffffff;
     float: right;
-
 }
+
