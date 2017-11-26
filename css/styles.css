@@ -160,6 +160,7 @@ a:hover {
 .slider1 {
     height: 899px;
     width: 100%;
+
     background: url("../img/bg_v2.jpg") no-repeat top left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
