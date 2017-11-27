@@ -33,11 +33,8 @@ a:hover {
 
 .top-bar {
     background: black;
-    /*display: inline-block;*/
-    /*position: fixed;*/
     height: 44px;
     width: 100%;
-    padding-bottom: 0;
     padding-top: 20px;
     padding-left: 100px;
 }
@@ -789,20 +786,22 @@ a:hover {
     width: 30%;
     padding-bottom: 14px;
 }
+
 .contact-info-begin {
     float: left;
     padding-bottom: 40px;
 }
+
 .contact-info-list {
-    float:left;
+    float: left;
     display: flex;
     width: 100%;
 }
 
 .contact-info h2 {
-     font: 11pt "OpenSansBold", sans-serif;
-     padding-bottom: 10px;
- }
+    font: 11pt "OpenSansBold", sans-serif;
+    padding-bottom: 10px;
+}
 
 .contact-info h3 {
     font: 10pt "OpenSans", sans-serif;
@@ -813,7 +812,7 @@ a:hover {
     float: left;
     height: 74px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     width: 1147px;
     font: 10pt "OpenSans", sans-serif;
     padding-top: 30px;
@@ -828,4 +827,104 @@ a:hover {
     color: #ffffff;
     float: right;
 }
+
+@media screen and (max-width: 1887px) {
+    .sq1, .sq2, .sq3 {
+
+        padding-right: 1px;
+        width: 25%;
+        height: 25%;
+        margin-right: 6px;
+    }
+
+    .sq1-back h2 {font-size: 48px ; width: 580px;}
+    .sq2-back h2 {font-size: 48px ; width: 580px;}
+    .sq3-back h2 {font-size: 48px ; width: 580px;}
+
+
+
+}
+
+@media screen and (max-width: 1833px) {
+    .logo-nav ul {
+        padding: 0 0 0 100px;
+    }
+
+    .logo-cart {
+        padding-right: 0;
+    }
+
+    .slider3 {
+        display: block;
+    }
+
+
+
+    .logo-nav ul {
+        padding-left: 0;
+        text-align: center
+    }
+
+    .ico2-3, .ico2-2, .ico2-1 {
+        padding-left: 50px;
+    }
+
+    .title1 {
+        width: 915px;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .menu, .logo-nav {
+        padding-left: 10px;
+    }
+
+    /* AWARDS REKLAMA */
+    .featured, .usedby, .banners-container, .banners-container4, .line-banners, .line-banners4 {
+        padding-left: 0;
+        margin-left: 0;
+        float: none;
+        text-align: center;
+        width: 100%
+    }
+
+    .part2-container {
+        display: inline-block;
+    }
+
+    .header-game-changer, .info, .video-player, .video-footer {
+        float: none;
+        padding-left: 0;
+        text-align: center;
+        width: 100%
+    }
+
+    .form1-shop-now {
+        padding-bottom: 20px;
+    }
+
+    .logo-nav ul {
+        padding-left: 10px;
+    }
+
+    .logo-nav ul {
+        padding-left: 0;
+        text-align: center
+    }
+
+    .ico2-3, .ico2-2, .ico2-1 {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 1384px) {
+
+}
+
+@media screen and (max-width: 1035px) {
+    /*square pictures SLIDER 2*/
+}
+
+/*1060 995 760 570 440 390*/
+
 
